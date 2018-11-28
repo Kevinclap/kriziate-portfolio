@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import { SocialIcon } from 'react-social-icons'
 
 const Header = ({ siteTitle }) => (
   <div
@@ -25,6 +26,7 @@ const Header = ({ siteTitle }) => (
         >
           {siteTitle}
         </Link>
+        <SocialIcon url="https://www.linkedin.com/in/krizia-medero-4ab98914a/"/>
       </h1>
     </div>
   </div>
