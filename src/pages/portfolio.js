@@ -1,7 +1,9 @@
 import React from 'react'
+import Layout from '../components/layout';
 
-const Portfolio = () => {
-  return (
+const Portfolio = () => (
+
+    <Layout>
     <div>
     <h1>Portfolio</h1>
     <p>Consequat cillum velit enim sit do enim exercitation aute. 
@@ -12,7 +14,8 @@ const Portfolio = () => {
       Quis qui cillum ipsum laborum officia duis ad laborum sunt nulla dolor tempor. 
       Consectetur ut dolore esse id ex ea exercitation in id culpa sunt non voluptate adipisicing.  </p>
     </div>
+    </Layout>
   )
-}
+
 
 export default Portfolio;
